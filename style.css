@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+	-webkit-user-select: none; 
+     	-webkit-touch-callout: none; 
+      	-moz-user-select: none; 
+      	-ms-user-select: none; 
+      	user-select: none;
+
+	background-color:rgb(158, 212, 253)
+}
+
+:not(.default)::-webkit-search-cancel-button {
+	-webkit-appearance: none;
+}
+
+#search_bar {
+	text-indent: 8px;
+	border-radius: 28px;
+	border-color: black;
+	border-width: 5px;
+	width: 870px;
+	height: 55px;
+	transition-duration: 650ms;
+	outline: none;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	border-style: solid;
+}
+
+#search_bar:focus {
+	border-radius: 10px;
+	border-color: gainsboro;
+	border-style:solid;
+	width: 900px;
+	height: 70px;
+	font-size: 30px;
+	border-width: 3px;
+}
+
+#search_bar:hover {
+	border-radius: 10px;
+}
+
+#search_bar::-webkit-search-cancel-button {
+	content: '';
+	display: block;
+	height: 20px;
+	width: 20px;
+	padding-left: 25px;
+	background-image: url('img/x.png');
+	background-size: 20px;
+	background-repeat: no-repeat;
+}
+
+#bar {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#datalist option {
+	height: 50px;
+	width: 500px;
+}
+
+.title {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 250px;
+	font-size: 45px;
+	font-family: 'Poppins', sans-serif;
+}
